@@ -12,6 +12,7 @@ body {
   font-size: 1.6rem;
 
   width: 100vw;
+  overflow-x: hidden;
   
 }
 
@@ -152,10 +153,13 @@ color: rgb(191, 33, 191);
 }
 
 #aboutMe {
-  height: 125vh;
+  height: 134vh;
 }
 
 
 #aboutMe img {
-
+margin-top: 68rem;
+margin-left: 65%;
+ 
+background-color: red;
 }
