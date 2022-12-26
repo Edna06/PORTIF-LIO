@@ -32,7 +32,7 @@ body {
 
  nav .logo a {
   color: #ffffff;
-  font-size: 1.9rem;
+  font-size: 2.1rem;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -92,6 +92,7 @@ color: black;
 
 #home .apresentation {
   margin-top: -46%;
+  margin-bottom: 15%;
   
 display: flex;
 text-align: center;
@@ -153,13 +154,54 @@ color: rgb(191, 33, 191);
 }
 
 #aboutMe {
-  height: 134vh;
+  margin-top: 35.7rem;
+  height: 105vh;
+  background: rgba(15, 12, 12, 0.96);
 }
 
 
-#aboutMe img {
-margin-top: 68rem;
-margin-left: 65%;
- 
-background-color: red;
+#aboutMe .title {
+text-align: center;
+padding-top: 10rem;
+
+font-size: 3.4rem;
+font-family: 'Dm Sans', sans-serif;
+color: rgb(191, 33, 191);}
+
+#aboutMe .columns{
+  margin-top: 17rem;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+#aboutMe .columns .col-01{
+width: 40%;
+text-align: justify;
+}
+
+#aboutMe .columns .col-01 h4{
+font-size: 2.4rem;
+color: hsla(0, 0%, 100%, 0.563);
+font-weight: 600;
+letter-spacing: .2rem;
+}
+
+#aboutMe .columns .col-01 span{
+ color:rgba(191, 33, 191, 0.752);
+}
+
+#aboutMe .columns .col-02 img {
+
+background-color: rgba(15, 12, 12, 0.895);
+width: 32rem;
+height: 32rem;
+padding: 2.5rem;
+border-radius: 100%;
+transition: all 1s;
+}
+
+#aboutMe img:hover {
+cursor: pointer;
+transform: scale(1.1);
 }
