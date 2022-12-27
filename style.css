@@ -220,7 +220,7 @@ background: hsla(0, 0%, 0%, 0.946);
   padding-bottom: 17rem;
   
   display: grid;
-  gap: 10rem;
+  gap: 3rem;
   width: 100%;
   
   grid-template-areas: "A B C"
@@ -236,6 +236,7 @@ background: hsla(0, 0%, 0%, 0.946);
   filter: brightness(0.7);
 
   transition: all .9s;
+  margin-bottom: 4rem;
 }
 
 #projects .card:hover {
