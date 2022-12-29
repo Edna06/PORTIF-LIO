@@ -408,6 +408,10 @@ cursor: pointer;
 }
 
 #contact  a svg path {
+  fill: rgba(191, 33, 191, 0.75);
+}
+
+#contact  a svg path:hover {
   fill: rgb(191, 33, 191);
 }
 
@@ -506,8 +510,6 @@ footer p {
   width: 8rem;
   height: 8rem;
 
-
-
   opacity: 0;
   visibility: hidden;
   transform: translateY(100%);
@@ -519,4 +521,5 @@ footer p {
   visibility: visible;
   transform: translateY(0);
 }
+
 
