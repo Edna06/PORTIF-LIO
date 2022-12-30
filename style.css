@@ -138,15 +138,16 @@ font-size: 4rem;
 letter-spacing: 0rem;
 }
 
-#home .apresentation button {
+#home .apresentation a.button {
 width: 23rem;
 height: 6rem;
 
 color: rgb(214, 209, 214);
-background: none;
+text-decoration: none;
 border-radius: 0.81rem;
 border: 1px solid rgb(191, 33, 191);
 transition: all 1s;
+padding-top: 1.3rem;
 
 font-family: "Dm Sans", sans-serif;
 font-size: 2.2rem;
@@ -155,7 +156,7 @@ font-weight: 800;
 margin-top: 7rem;
 }
 
-#home .apresentation button:hover {
+#home .apresentation .button:hover {
 cursor: pointer;
 transform: scale(0.95);
 background: #ffffff;
@@ -178,7 +179,7 @@ color: rgb(191, 33, 191);
 }
 
 #aboutMe .columns{
-  margin-top: 17rem;
+margin-top: 17rem;
 display: flex;
 align-items: center;
 justify-content: space-evenly;
