@@ -15,6 +15,20 @@ body {
   overflow-x: hidden;  
 }
 
+body::-webkit-scrollbar {
+  width: 1.2rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(15, 12, 12);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(191, 33, 191, 0.706);   /* color of the scroll thumb */
+  border-radius: 20px;
+}
+
+
  nav {
   position: fixed;
   width: 100%;
@@ -203,17 +217,19 @@ letter-spacing: .2rem;
 
 #aboutMe .columns .col-02 img {
 
-background-color:  hsla(0, 0%, 0%, 0.946);
-width: 32rem;
-height: 32rem;
+border: 3px solid rgba(191, 33, 191, 0.831);
+width: 39rem;
+height: 39rem;
 padding: 2.5rem;
 border-radius: 100%;
 transition: all 1s;
+filter: saturate(0);
 }
 
-#aboutMe img:hover {
+#aboutMe .col-02:hover img{
 cursor: pointer;
 transform: scale(1.1);
+filter: saturate(0.8);
 }
 
 #projects {
@@ -412,7 +428,7 @@ cursor: pointer;
   fill: rgba(191, 33, 191, 0.75);
 }
 
-#contact  a svg path:hover {
+#contact  a:hover svg path{
   fill: rgb(191, 33, 191);
 }
 
@@ -522,5 +538,3 @@ footer p {
   visibility: visible;
   transform: translateY(0);
 }
-
-

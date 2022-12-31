@@ -3,10 +3,6 @@ const backToTopButton = document.querySelector('a#backToTopButton')
 
 window.addEventListener('scroll', showBackToTopButtonOnScroll)
 
-
-
-
-
 function showBackToTopButtonOnScroll() {
   if (scrollY > 300) {
     backToTopButton.classList.add('show')
@@ -14,6 +10,7 @@ function showBackToTopButtonOnScroll() {
     backToTopButton.classList.remove('show')
   }
 }
+
 
 ScrollReveal({
   origin: 'top',
