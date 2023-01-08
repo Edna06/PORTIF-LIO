@@ -11,7 +11,6 @@ function showBackToTopButtonOnScroll() {
   }
 }
 
-
 ScrollReveal({
   origin: 'top',
   distance: '100px',
